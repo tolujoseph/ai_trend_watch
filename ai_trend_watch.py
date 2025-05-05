@@ -4,8 +4,8 @@ from newspaper import Article
 from telegram import Bot
 
 # --- CONFIG ---
-TELEGRAM_TOKEN = "YOUR_BOT_TOKEN_HERE"
-TELEGRAM_CHAT_ID = "YOUR_USER_ID_HERE"
+TELEGRAM_TOKEN = "telegram_token"
+TELEGRAM_CHAT_ID = "telegram_chat_id"
 
 HEADERS = {"User-Agent": "Mozilla/5.0"}
 SOURCES = {
